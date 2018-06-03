@@ -4,7 +4,7 @@ require_relative '../lib/concerns/findable.rb'
 require_relative '../lib/concerns/peramable.rb'
 
 class Artist
-  extend Memorable
+  extend Memorable::ClassMethods
   extend Findable
   include Peramable
 
