@@ -3,7 +3,6 @@ require_relative '../lib/concerns/memorable.rb'
 require_relative '../lib/concerns/findable.rb'
 
 
-
 class Song
   extend Memorable
   extend Findable
