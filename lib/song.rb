@@ -14,9 +14,9 @@ class Song
 
   @@songs = []
 
-  def initialize
-    self.class.all << self
-  end
+#  def initialize
+#    self.class.all << self
+#  end
 
   def artist=(artist)
     @artist = artist
