@@ -6,7 +6,7 @@ require_relative '../lib/concerns/peramable.rb'
 class Artist
   extend Memorable
   extend Findable
-  extend Peramable
+  include Peramable
 
   attr_accessor :name
   attr_reader :songs
